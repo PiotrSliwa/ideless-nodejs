@@ -1,0 +1,23 @@
+{
+  "name": "ideless",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "PiotrSliwa",
+  "contributors": [],
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-spies": "^0.7.1",
+    "optimist": "^0.6.1",
+    "xml2js": "^0.4.16"
+  },
+  "engines": {
+    "node": ">=5.7.1"
+  },
+  "bin": {
+    "ideless": "main.js"
+  },
+  "scripts": {
+    "test": "mocha tests/"
+  }
+}
